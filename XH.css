@@ -1,0 +1,28 @@
+body{
+    overflow: hidden;
+    background: url("img/tr.jpg") no-repeat  content-box;
+    background-size: 100%;
+    opacity: 0.5;
+}
+.cvas {
+    margin-top: 80px;
+    position: absolute;
+    left: 600px;
+}
+.score-box{
+    color: darkgreen;
+    font-size: 26px;
+    position: absolute;
+    left: 280px;
+    font-weight: bolder;
+}
+.ss {
+    background-color:yellow;
+    color: red;
+    padding: 3px 16px;
+    font-size: 20px;
+    margin-top: 300px;
+    font-weight: 550;
+    cursor: pointer;
+}
+
