@@ -5,6 +5,11 @@ const COL = 12;
 const SQ = 30;
 const COLOR = 'lightblue';
 let score = 0;
+let gameOver = false;
+let playing = false;
+let interval;
+let interval2 ;
+
 function drawSquare (x,y,color) {
     ctx.fillStyle = color;
     ctx.fillRect(x*SQ,y*SQ,SQ,SQ)

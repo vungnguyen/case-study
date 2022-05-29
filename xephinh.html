@@ -11,16 +11,20 @@
 <div class="game">
 
      <div class="score-box">
-         <h1>Xếp Hình </h1>
+         <h1>TETRIS</h1>
          Score : <div id="score">0</div>
-         <button class="ss" id="play">Play</button>
+<!--         <button class="ss" id="play">Play</button>-->
+<!--         <button class="button" id="new" >New</button>-->
+
      </div>
     <div class="cvas">
         <canvas id="canvas" width="400" height="800"></canvas>
     </div>
+    <div class="scoremax" ondblclick="resetMaxScore()">Max score:<span id="max-score">0</span></div>
+
 </div>
 
-<script src="draw.js"></script>
+<script src="main.js"></script>
 <script src="shape.js"></script>
 <script src="game.js"></script>
 </body>
